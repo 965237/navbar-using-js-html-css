@@ -1,0 +1,54 @@
+.body {
+    background-color: black;
+    color: white;
+}
+
+.my #list {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(4, 8, 7);
+    height: 27vh;
+
+}
+
+.my #list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.my #list a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.my #list li:hover {
+    background-color: rgb(187, 180, 249);
+    list-style-type: underline;
+
+}
+
+
+.show_menu #list1 {
+    display: block;
+    background-color: black;
+}
+
+
+.show_menu #list1 li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.show_menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.show_menu a:hover{
+    padding: 5px;
+    text-decoration:underline;
+    transition: 0.2s ease-out;
+
+}
